@@ -1,32 +1,48 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <Navbar />
+    <v-content transition="slide-x-transition">
+      <Home id="home"></Home>
+      <Skills id="skills"></Skills>
+      <Projects id="projects"></Projects>
+      <Experience id="experience"></Experience>
+      <Certifications id="certifications"></Certifications>
+      <Contact id="contact"></Contact>
+      <v-footer absolute class="mt-5">
+        <v-col
+          class="text-center font-weight-light"
+          cols="12"
+        >Made by MEHERHERA Amina — using Vuejs and Vuetify &copy; 2020</v-col>
+      </v-footer>
+    </v-content>
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import Navbar from "@/components/Navbar";
 
-#nav {
-  padding: 30px;
-}
+import Home from "@/views/Home";
+import Skills from "@/views/Skills";
+import Projects from "@/views/Projects";
+import Experience from "@/views/Experience";
+import Certifications from "@/views/Certifications";
+import Contact from "@/views/Contact";
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+export default {
+  name: "App",
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+  components: {
+    Navbar,
+    Home,
+    Skills,
+    Projects,
+    Experience,
+    Certifications,
+    Contact
+  },
+
+  data: () => ({
+    //
+  })
+};
+</script>
