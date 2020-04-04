@@ -1,19 +1,8 @@
-# portfolio
+# My portfolio
 
-## Project setup
-```
-npm install
-```
+The first version of my responsive [portfolio website ](https://minameh.github.io/) built from scratch with HTML, CSS, Vuejs and Vuetify.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## To do
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Add some animations.
+- Fix Some images display problems.
