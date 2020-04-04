@@ -51,4 +51,4 @@ export default {
 .pic {
   height: 80vh;
 }
-</style>
+</style>k

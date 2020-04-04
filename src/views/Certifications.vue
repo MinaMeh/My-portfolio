@@ -71,7 +71,7 @@ export default {
             "https://www.lynda.com/ViewCertificate/E0DF59226F6541FC80ABD8640BA3D354?utm_source=directlink&utm_medium=sharing&utm_campaign=certificate"
         },
         {
-          title: "Learning Amazone SageMaker -Lynda.com-",
+          title: "Learning Amazon SageMaker -Lynda.com-",
           date: "(12/2019)",
           logo: "/cert/lynda.jpg",
           link:

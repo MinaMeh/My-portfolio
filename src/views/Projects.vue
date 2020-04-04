@@ -133,7 +133,7 @@ export default {
         {
           title: "BoostResto",
           description:
-            "Une application de gestion des restaurants qui permet la gestion de la cuisine, des menus et plats, de stock et éventuellemnt générer les statistique",
+            "A restaurant management application that allows the management of the kitchen, menus, stock and it offers the possibility to  generate statistics",
           technologies: ["Windev"],
           color: "blue",
           items: [
