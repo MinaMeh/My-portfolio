@@ -8,7 +8,7 @@
       <Experience id="experience"></Experience>
       <Certifications id="certifications"></Certifications>
       <Contact id="contact"></Contact>
-      <v-footer absolute class="mt-5">
+      <v-footer class="mt-5">
         <v-col
           class="text-center font-weight-light"
           cols="12"

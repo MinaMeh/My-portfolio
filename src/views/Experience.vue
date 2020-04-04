@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row no-gutters class="mt-2" justify="space-around">
-      <v-col xs="12" sm="12" md="3" xl="3" class="skills">
+      <v-col cols="7" sm="7" md="3" xl="3" class="skills">
         <span>
           <h1 class="text-center display-2">Experience</h1>
         </span>
@@ -24,19 +24,19 @@
                 <v-icon dark size="40" class="mr-4">mdi-account</v-icon>
               </v-col>
               <v-col cols="11">
-                <h2 class="display-1 white--text font-weight-light">{{exp.title}}</h2>
+                <h2 class="headline white--text ml-3 mt-2">{{exp.title}}</h2>
               </v-col>
               <v-col cols="1" justify="left">
                 <v-icon dark size="30" class="mr-4">mdi-calendar-text</v-icon>
               </v-col>
               <v-col cols="11" align-self="center">
-                <h3 class="subtitle font-weight-light">{{exp.date}}</h3>
+                <h3 class="subtitle-1 font-weight-light ml-3">{{exp.date}}</h3>
               </v-col>
               <v-col cols="1" align="left">
                 <v-icon dark size="30" class="mr-4">mdi-home-modern</v-icon>
               </v-col>
               <v-col cols="11" align-self="center">
-                <h3 class="subtitle font-weight-light">{{exp.where}}</h3>
+                <h3 class="subtitle-1 font-weight-light ml-3">{{exp.where}}</h3>
               </v-col>
             </v-row>
           </v-card-title>

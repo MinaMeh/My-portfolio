@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row no-gutters class="mt-2" justify="space-around">
-      <v-col xs="12" sm="12" md="2" xl="2" class="skills">
+      <v-col cols="6" sm="6" md="2" xl="2" class="skills">
         <span>
           <h1 class="text-center display-2">Projects</h1>
         </span>
@@ -10,7 +10,7 @@
     <v-row justify="space-around">
       <v-col
         align-self="stretch"
-        xs="12"
+        cols="12"
         sm="12"
         md="6"
         xl="6"
@@ -23,13 +23,13 @@
               <v-carousel-item
                 v-for="(item,i) in project.items"
                 :key="i"
-                :src="item"
                 :href="item"
                 target="__"
-                class="fit"
                 reverse-transition="fade-transition"
                 transition="fade-transition"
-              ></v-carousel-item>
+              >
+                <img class="fit" :src="'/images'+item" alt />
+              </v-carousel-item>
             </v-carousel>
             <v-col align="stretch">
               <h2 class="mt-4">{{project.title}}</h2>
@@ -59,14 +59,7 @@ export default {
             "An android mobile application for pharmacies customers which allow to display pharmacies by city, the details of a pharmacy, the nearest pharmacies on a map. It also makes it possible to launch an order and follow the processing status of the order",
           technologies: ["Kotlin", "NodeJs"],
           color: "green accent-2",
-          items: [
-            "/pharma/1-1.png",
-            "/pharma/3.png",
-            "/pharma/4.png",
-            "/pharma/5.png",
-            "/pharma/6.png",
-            "/pharma/7.png"
-          ]
+          items: ["/pharma/5.png", "/pharma/6.png", "/pharma/7.png"]
         },
         {
           title: "SYNTECH",
@@ -82,7 +75,7 @@ export default {
             "A Desktop application to resolve the knapsack problem with exact methods, heuristics and meta-heuristics",
           technologies: ["Python", "PyQt5"],
           color: "purple darken-4",
-          items: ["/knapsack/1.png", "/knapsack/2.png", "/knapsack/3.png"]
+          items: ["/knapsack/1.png", "/knapsack/2.png"]
         },
         {
           title: "Artic",
@@ -90,11 +83,7 @@ export default {
             "A Desktop application to detect the articulation point in a graph",
           technologies: ["JAVA", "JavaFX"],
           color: "deep-orange accent-4",
-          items: [
-            "/articulation/1.png",
-            "/articulation/2.png",
-            "/articulation/3.png"
-          ]
+          items: ["/articulation/2.png", "/articulation/3.png"]
         },
         {
           title: "AUDIT",
@@ -109,18 +98,7 @@ export default {
             "MySQL"
           ],
           color: "success",
-          items: [
-            "/elit/1-1.png",
-            "/elit/2.png",
-            "/elit/4.png",
-            "/elit/5.png",
-            "/elit/6.png",
-            "/elit/7.png",
-            "/elit/8.png",
-            "/elit/9.png",
-            "/elit/10.png",
-            "/elit/11.png"
-          ]
+          items: ["/elit/5.png", "/elit/8.png", "/elit/11.png"]
         },
         {
           title: "WashIT",
@@ -138,19 +116,10 @@ export default {
           color: "blue",
           items: [
             "/boostresto/1.png",
-            "/boostresto/2.png",
             "/boostresto/3.png",
-
-            "/boostresto/4.png",
             "/boostresto/5.png",
-            "/boostresto/6.png",
             "/boostresto/7.png",
-            "/boostresto/8.png",
-            "/boostresto/9.png",
-            "/boostresto/10.png",
-            "/boostresto/11.png",
-            "/boostresto/12.png",
-            "/boostresto/13.png"
+            "/boostresto/10.png"
           ]
         },
         {
@@ -165,14 +134,14 @@ export default {
           description: "A web application to get the weather of  a given town ",
           technologies: ["HTML", "CSS", "Bootstrap", "JQUERY", "PHP", "MySQL"],
           color: "success",
-          items: ["/boostresto/1.png", "/boostresto/2.png", "/boostresto/3.png"]
+          items: ["/weather/1.png", "/weather/2.png"]
         },
         {
-          title: "Lanscape Pages",
+          title: "Landing Pages",
           description: "A lanscape page of a mobile application presentation  ",
           technologies: ["HTML", "CSS", "Bootstrap", "JQUERY", "PHP", "MySQL"],
           color: "blue",
-          items: ["/weather/1.png", "/weather/2.png"]
+          items: ["/landing/1.png", "/landing/2.png"]
         },
         {
           title: "Pendu",
@@ -192,6 +161,11 @@ export default {
   margin: auto;
 }
 .fit {
-  height: "200";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;
+  object-fit: scale-down;
 }
 </style>

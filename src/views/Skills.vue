@@ -1,14 +1,14 @@
 <template>
   <v-container class="window-size">
     <v-row no-gutters class="mt-2" justify="space-around">
-      <v-col xs="12" sm="12" md="2" xl="2" class="skills">
+      <v-col cols="4" sm="4" md="2" xl="2" class="skills">
         <span>
           <h1 class="text-center display-2">Skills</h1>
         </span>
       </v-col>
     </v-row>
     <v-row no-gutters class="mt-3" align="center">
-      <v-col xs="12" sm="12" md="5" xl="5">
+      <v-col cols="12" sm="12" md="5" xl="5">
         <v-card class="text-center ma-1">
           <v-card-text>
             <h1 class="title">Data Analysis</h1>
@@ -21,7 +21,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col xs="12" sm="12" md="3" xl="3">
+      <v-col cols="12" sm="12" md="3" xl="3">
         <v-card class="text-center ma-1">
           <v-card-text>
             <h1 class="title">Machine Learning</h1>
@@ -34,7 +34,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col xs="12" sm="12" md="4" xl="4">
+      <v-col cols="12" sm="12" md="4" xl="4">
         <v-card class="text-center ma-1">
           <v-card-text>
             <h1 class="title">Big Data</h1>
@@ -49,7 +49,7 @@
       </v-col>
     </v-row>
     <v-row no-gutters>
-      <v-col xs="12" sm="12" md="5" xl="5">
+      <v-col cols="12" sm="12" md="5" xl="5">
         <v-card class="text-center ma-1">
           <v-card-text>
             <h1 class="title">Web Development</h1>
@@ -70,7 +70,7 @@
         </v-card>
       </v-col>
 
-      <v-col xs="12" sm="12" md="3" xl="3">
+      <v-col cols="12" sm="12" md="3" xl="3">
         <v-card class="text-center ma-1">
           <v-card-text>
             <h1 class="title">Databases</h1>
@@ -84,7 +84,7 @@
         </v-card>
       </v-col>
 
-      <v-col xs="12" sm="12" md="2" xl="2" align-self="center">
+      <v-col cols="12" sm="12" md="2" xl="2" align-self="center">
         <v-card class="text-center ma-1">
           <v-card-text>
             <h1 class="title">Mobile Development</h1>
@@ -97,7 +97,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col xs="12" sm="12" md="2" xl="2" align-self="center">
+      <v-col cols="12" sm="12" md="2" xl="2" align-self="center">
         <v-card class="text-center ma-1">
           <v-card-text>
             <h1 class="title">Operating Systems</h1>
@@ -112,7 +112,7 @@
       </v-col>
     </v-row>
     <v-row no-gutters>
-      <v-col xs="12" sm="12" md="5" xl="5">
+      <v-col cols="12" sm="12" md="5" xl="5">
         <v-card class="text-center ma-1">
           <v-card-text>
             <h1 class="title">Tools</h1>
@@ -120,7 +120,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col xs="12" sm="12" md="3" xl="3">
+      <v-col cols="12" sm="12" md="3" xl="3">
         <v-card class="text-center ma-1">
           <v-card-text>
             <h1 class="title">Project Management</h1>
@@ -133,7 +133,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col xs="12" sm="12" md="4" xl="4">
+      <v-col cols="12" sm="12" md="4" xl="4">
         <v-card class="text-center ma-1">
           <v-card-text>
             <h1 class="title">Others</h1>
@@ -159,10 +159,10 @@ export default {
         "R",
         "Numpy",
         "Pandas",
-        "Matplotlob",
+        "Matplotlib",
         "Seaborn"
       ],
-      machine_learning: ["Python", "Sci-kit Learn", "Pytorch"],
+      machine_learning: ["Python", "Scikit-learn", "Pytorch"],
       big_data: ["Python", "Scala", "Spark/PySpark", "Hive", "Hadoop"],
       frontend: [
         "HTML",

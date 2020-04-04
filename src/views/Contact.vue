@@ -1,8 +1,8 @@
 <template >
   <v-container>
-    <v-row class="ma-3 mb-5" style="height:550px;">
-      <v-col xs="12" sm="12" md="6" xl="6" align-self="center">
-        <v-card flat height="90%">
+    <v-row class="ma-3 mb-5">
+      <v-col cols="12" sm="12" md="6" xl="6" align-self="center">
+        <v-card flat>
           <v-card-text>
             <h1 class="display-2 text-center ma-3">Contact Me</h1>
             <v-col cols="12">
@@ -22,8 +22,8 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col xs="12" sm="12" md="6" xl="6" align="center" justify="center">
-        <img style="height:90%;" class="pic" src="/pc.jpeg" alt />
+      <v-col cols="12" sm="12" md="6" xl="6" align="center" justify="center">
+        <img class="pic" src="/images/pc.jpeg" alt />
       </v-col>
     </v-row>
   </v-container>
