@@ -7,7 +7,7 @@
       <v-flex xs12 sm12 md6 xl6 class="mt-4" align-self-center>
         <v-card flat>
           <v-card-text class="headline font-weight-light text-center">
-            <p>A final year Computer Science Student at Ecole Supérieure D'informatique (ESI-Algiers) and DevOps Enginner at Innovia for Intersec Group.</p>
+            <p>A final year Computer Science Student at Ecole Supérieure D'informatique (ESI-Algiers) and DevOps Engineer at Innovia for Intersec Group.</p>
             <p>Passionate about all what is about computer science and always seeking knowledge and learning new things.</p>
           </v-card-text>
         </v-card>
@@ -28,7 +28,7 @@
               <img src="/social/github.png" alt="alt" />
             </v-avatar>
           </a>
-          <a href>
+          <a href="https://www.youracclaim.com/users/amina-meherhera/">
             <v-avatar class="ma-3" size="50">
               <img src="/social/acclaim.jpg" alt="alt" />
             </v-avatar>

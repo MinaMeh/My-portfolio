@@ -64,8 +64,8 @@ export default {
           where: "Innovia Business Solutions",
           date: "Jan 2010 -Now",
           tasks: [
-            "Web Applications Developper(01/2020)",
-            "DevOps Engineer at Intersec Group (02/2020-Présent)"
+            "Mobile Applications Developper(01/2020)",
+            "DevOps Engineer at Intersec Group (02/2020-Now)"
           ],
           color: "red lighten-1",
           right: true,

@@ -37,6 +37,27 @@ export default {
     return {
       certifications: [
         {
+          title: "Continuous Delivery Using Docker And Ansible -Pluralsight- ",
+          date: "(04/2020)",
+          logo: "/cert/pluralsight.jpg",
+          link:
+            "https://app.pluralsight.com/learner/user/courses/docker-ansible-continuous-delivery/certificate"
+        },
+        {
+          title: "Getting Started with Ansible  -Pluralsight- ",
+          date: "(04/2020)",
+          logo: "/cert/pluralsight.jpg",
+          link:
+            "https://app.pluralsight.com/learner/user/courses/getting-started-ansible/certificate"
+        },
+        {
+          title: "Master VI/VIM Linux Command Line Text Editor -Udemy-",
+          date: "(04/2020)",
+          logo: "/cert/udemy.png",
+          link:
+            "https://www.udemy.com/certificate/UC-ff06cfa3-f822-4915-9015-8abf594a849d/"
+        },
+        {
           title: "AI Programming with Python Nanodegree -Udacity-",
           date: "(01/2020-03/2020)",
           logo: "/cert/udacity.jpg",
@@ -173,8 +194,7 @@ export default {
           title: "Fullstack Web Developper - Udemy-)",
           date: "(07/2017 -08/2017)",
           logo: "/cert/udemy.png",
-          link:
-            "https://www.lynda.com/ViewCertificate/E0DF59226F6541FC80ABD8640BA3D354?utm_source=directlink&utm_medium=sharing&utm_campaign=certificate"
+          link: ""
         }
       ]
     };
