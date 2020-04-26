@@ -112,7 +112,20 @@
       </v-col>
     </v-row>
     <v-row no-gutters>
-      <v-col cols="12" sm="12" md="5" xl="5">
+      <v-col xs="12" sm="12" md="2" xl="2">
+        <v-card class="text-center ma-1">
+          <v-card-text>
+            <h1 class="title">DevOps</h1>
+            <v-chip
+              class="ma-1"
+              color="red lighten-1"
+              v-for="(skill, index) in devops"
+              :key="index"
+            >{{skill}}</v-chip>
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col xs="12" sm="12" md="3" xl="3">
         <v-card class="text-center ma-1">
           <v-card-text>
             <h1 class="title">Tools</h1>
@@ -185,14 +198,8 @@ export default {
       ],
       mobile: ["Android Studio", "Kotlin"],
       os: ["Linux", "Windows"],
-      tools: [
-        "Git/Github",
-        "Docker",
-        "Microsoft Office",
-        "Cisco Packet Tracer",
-        "GNS3",
-        "VMware ESXi"
-      ],
+      devops: ["Docker", "Ansible", "Jenkins", "Make"],
+      tools: ["Git/Github", "Microsoft Office", "Cisco Packet Tracer", "GNS3"],
       project_management: ["Ms Project", "Trello", "Scrum", "Gerrit", "Slack"],
       others: ["Java", "C", "Matlab", "Octave", "Bash", "VHDL", "Windev"]
     };

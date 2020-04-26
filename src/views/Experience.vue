@@ -65,7 +65,7 @@ export default {
           date: "Jan 2010 -Now",
           tasks: [
             "Mobile Applications Developper(01/2020)",
-            "DevOps Engineer at Intersec Group (02/2020-Présent)"
+            "DevOps Engineer at Intersec Group (02/2020-Now)"
           ],
           color: "red lighten-1",
           right: true,
@@ -87,7 +87,7 @@ export default {
           where: " Shellmates Club",
           date: "Sep 2017- Feb 2020",
           tasks: [
-            "vice-President (Sep 2018 - Oct 2019)",
+            "Vice-President (Sep 2018 - Oct 2019)",
             "Community Manager (Jan 2018-Jan 2020)",
             "Active Member (Sep 2017– Feb 2020)"
           ],
