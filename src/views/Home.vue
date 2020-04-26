@@ -18,19 +18,24 @@
             </v-avatar>
           </a>
 
-          <a href="https://www.linkedin.com/in/amina-meherhera-b63323135/">
+          <a target="__" href="https://www.linkedin.com/in/amina-meherhera-b63323135/">
             <v-avatar class="ma-3" size="50">
               <img src="/social/linkedin.png" alt="alt" />
             </v-avatar>
           </a>
-          <a href="https://github.com/MinaMeh">
+          <a target="__" href="https://github.com/MinaMeh">
             <v-avatar class="ma-3" size="50">
               <img src="/social/github.png" alt="alt" />
             </v-avatar>
           </a>
-          <a href="https://www.youracclaim.com/users/amina-meherhera/">
+          <a target="__" href="https://www.youracclaim.com/users/amina-meherhera/">
             <v-avatar class="ma-3" size="50">
               <img src="/social/acclaim.jpg" alt="alt" />
+            </v-avatar>
+          </a>
+          <a target="__" href="https://drive.google.com/open?id=1JwTy8L9T0uNA8we3tUYLwo1JlNCub3Qw">
+            <v-avatar class="ma-3" size="50">
+              <img src="/images/social/cv.png" alt="alt" />
             </v-avatar>
           </a>
         </v-col>

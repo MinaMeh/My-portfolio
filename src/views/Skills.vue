@@ -115,7 +115,7 @@
       <v-col xs="12" sm="12" md="2" xl="2">
         <v-card class="text-center ma-1">
           <v-card-text>
-            <h1 class="title">Devops</h1>
+            <h1 class="title">DevOps</h1>
             <v-chip
               class="ma-1"
               color="red lighten-1"
