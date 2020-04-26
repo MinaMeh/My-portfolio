@@ -146,7 +146,7 @@ export default {
         {
           title: "Pendu",
           description:
-            "Un jeu de mot desktop dans lequel vous allez devoir découvrir un mot de 7 à 11 lettres d'après une indication qui est son synonyme, antomyme ou définition . ",
+            "A desktop game where you will have to guess a word of  7 to 11 letters according to a hint which could be the word's synonym, antonym or definition . ",
           technologies: ["JAVA", "JavaFX"],
           color: "purple",
           items: ["/pendu/1.png"]
