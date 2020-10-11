@@ -54,6 +54,14 @@ export default {
     return {
       projects: [
         {
+          title: "DataLink",
+          description:
+            "A web application to transform web open data to linked data in different serialization formats (turtle, XML, JSON-LD...)",
+          technologies: ["Django", "VueJs", "Vuetify"],
+          color: "green accent-2",
+          items: ["/datalink/2.png", "/datalink/3.png", "/datalink/4.png", "/datalink/5.png", "/datalink/6.png"]
+        },
+        {
           title: "My Pharma",
           description:
             "An android mobile application for pharmacies customers which allow to display pharmacies by city, the details of a pharmacy, the nearest pharmacies on a map. It also makes it possible to launch an order and follow the processing status of the order",

@@ -60,21 +60,38 @@ export default {
     return {
       experiences: [
         {
-          title: "Fullstack Developper",
-          where: "Innovia Business Solutions",
-          date: "Jan 2010 -Now",
+          title: "Python Engineer",
+          where: "Data Impact",
+          date: "Sep 2020 -Now",
           tasks: [
-            "Mobile Applications Developper(01/2020)",
-            "DevOps Engineer at Intersec Group (02/2020-Now)"
+            "Web Scraper and Python Engineer",
+            "Methodology: Scrum",
+            "Technologies: Python, Scrapy, Selenium, GCP",
+            "Tools: Jira, Bitbucket, GitKraken, Google Meet, Slack",
           ],
           color: "red lighten-1",
+          right: true,
+          left: true
+        },
+        {
+          title: "Fullstack Developper",
+          where: "Innovia Business Solutions",
+          date: "Jan 2020 -Aug 2020",
+          tasks: [
+            "Mobile Applications Developper(01/2020)",
+            "DevOps Engineer at Intersec Group (02/2020-08/2020)",
+            "Methodology: Scrum",
+            "Technologies: Python, Ansible, Bash, Gerrit, Redmine",
+            "Tools: Gerrit, Redmine, Microsoft Teams, Slack"
+          ],
+          color: "orange lighten-1",
           right: true,
           left: false
         },
         {
           title: "Internship",
           where: " LMCS Laboratory-ESI- ",
-          date: "Sep 2019- Now",
+          date: "Sep 2019- Sep 2020",
           tasks: [
             "Design and implementation of an approach to transform web open data to linked data"
           ],

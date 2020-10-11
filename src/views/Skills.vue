@@ -17,7 +17,8 @@
               color="primary"
               v-for="(skill, index) in data_analyses"
               :key="index"
-            >{{skill}}</v-chip>
+              >{{ skill }}</v-chip
+            >
           </v-card-text>
         </v-card>
       </v-col>
@@ -30,7 +31,8 @@
               color="red"
               v-for="(skill, index) in machine_learning"
               :key="index"
-            >{{skill}}</v-chip>
+              >{{ skill }}</v-chip
+            >
           </v-card-text>
         </v-card>
       </v-col>
@@ -43,7 +45,82 @@
               color="green"
               v-for="(skill, index) in big_data"
               :key="index"
-            >{{skill}}</v-chip>
+              >{{ skill }}</v-chip
+            >
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+    <v-row no-gutters>
+      <v-col xs="12" sm="12" md="3" xl="3">
+        <v-card class="text-center ma-1">
+          <v-card-text>
+            <h1 class="title">Web Scraping</h1>
+            <v-chip
+              class="ma-1"
+              color="teal"
+              v-for="(skill, index) in scraping"
+              :key="index"
+              >{{ skill }}</v-chip
+            >
+          </v-card-text>
+        </v-card>
+      </v-col>
+
+      <v-col xs="12" sm="12" md="2" xl="2">
+        <v-card class="text-center ma-1">
+          <v-card-text>
+            <h1 class="title">DevOps</h1>
+            <v-chip
+              class="ma-1"
+              color="red lighten-1"
+              v-for="(skill, index) in devops"
+              :key="index"
+              >{{ skill }}</v-chip
+            >
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="12" sm="12" md="3" xl="3">
+        <v-card class="text-center ma-1">
+          <v-card-text>
+            <h1 class="title">Databases</h1>
+            <v-chip
+              class="ma-1"
+              color="pink"
+              v-for="(skill, index) in databases"
+              :key="index"
+              >{{ skill }}</v-chip
+            >
+          </v-card-text>
+        </v-card>
+      </v-col>
+
+      <v-col cols="12" sm="12" md="2" xl="2" align-self="center">
+        <v-card class="text-center ma-1">
+          <v-card-text>
+            <h1 class="title">Mobile Development</h1>
+            <v-chip
+              class="ma-1"
+              color="deep-orange darken-4"
+              v-for="(skill, index) in mobile"
+              :key="index"
+              >{{ skill }}</v-chip
+            >
+          </v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="12" sm="12" md="2" xl="2" align-self="center">
+        <v-card class="text-center ma-1">
+          <v-card-text>
+            <h1 class="title">Operating Systems</h1>
+            <v-chip
+              class="ma-1 ml-3"
+              color="brown darken-1"
+              v-for="(skill, index) in os"
+              :key="index"
+              >{{ skill }}</v-chip
+            >
           </v-card-text>
         </v-card>
       </v-col>
@@ -58,78 +135,16 @@
               color="purple"
               v-for="(skill, index) in frontend"
               :key="index"
-            >{{skill}}</v-chip>
+              >{{ skill }}</v-chip
+            >
             <br />
             <v-chip
               class="ma-1"
               color="purple"
               v-for="(skill, index) in backend"
               :key="index"
-            >{{skill}}</v-chip>
-          </v-card-text>
-        </v-card>
-      </v-col>
-
-      <v-col cols="12" sm="12" md="3" xl="3">
-        <v-card class="text-center ma-1">
-          <v-card-text>
-            <h1 class="title">Databases</h1>
-            <v-chip
-              class="ma-1"
-              color="pink"
-              v-for="(skill, index) in databases"
-              :key="index"
-            >{{skill}}</v-chip>
-          </v-card-text>
-        </v-card>
-      </v-col>
-
-      <v-col cols="12" sm="12" md="2" xl="2" align-self="center">
-        <v-card class="text-center ma-1">
-          <v-card-text>
-            <h1 class="title">Mobile Development</h1>
-            <v-chip
-              class="ma-1"
-              color="deep-orange darken-4"
-              v-for="(skill, index) in mobile"
-              :key="index"
-            >{{skill}}</v-chip>
-          </v-card-text>
-        </v-card>
-      </v-col>
-      <v-col cols="12" sm="12" md="2" xl="2" align-self="center">
-        <v-card class="text-center ma-1">
-          <v-card-text>
-            <h1 class="title">Operating Systems</h1>
-            <v-chip
-              class="ma-1 ml-3"
-              color="brown darken-1"
-              v-for="(skill, index) in os"
-              :key="index"
-            >{{skill}}</v-chip>
-          </v-card-text>
-        </v-card>
-      </v-col>
-    </v-row>
-    <v-row no-gutters>
-      <v-col xs="12" sm="12" md="2" xl="2">
-        <v-card class="text-center ma-1">
-          <v-card-text>
-            <h1 class="title">DevOps</h1>
-            <v-chip
-              class="ma-1"
-              color="red lighten-1"
-              v-for="(skill, index) in devops"
-              :key="index"
-            >{{skill}}</v-chip>
-          </v-card-text>
-        </v-card>
-      </v-col>
-      <v-col xs="12" sm="12" md="3" xl="3">
-        <v-card class="text-center ma-1">
-          <v-card-text>
-            <h1 class="title">Tools</h1>
-            <v-chip class="ma-1" color="teal" v-for="(skill, index) in tools" :key="index">{{skill}}</v-chip>
+              >{{ skill }}</v-chip
+            >
           </v-card-text>
         </v-card>
       </v-col>
@@ -142,7 +157,8 @@
               color="green darken-4"
               v-for="(skill, index) in project_management"
               :key="index"
-            >{{skill}}</v-chip>
+              >{{ skill }}</v-chip
+            >
           </v-card-text>
         </v-card>
       </v-col>
@@ -155,7 +171,8 @@
               color="indigo"
               v-for="(skill, index) in others"
               :key="index"
-            >{{skill}}</v-chip>
+              >{{ skill }}</v-chip
+            >
           </v-card-text>
         </v-card>
       </v-col>
@@ -173,7 +190,7 @@ export default {
         "Numpy",
         "Pandas",
         "Matplotlib",
-        "Seaborn"
+        "Seaborn",
       ],
       machine_learning: ["Python", "Scikit-learn", "Pytorch"],
       big_data: ["Python", "Scala", "Spark/PySpark", "Hive", "Hadoop"],
@@ -185,7 +202,7 @@ export default {
         "Javascript",
         "JQuery",
         "VueJs",
-        "Vuetify"
+        "Vuetify",
       ],
       backend: ["PHP", "Laravel", "Django"],
       databases: [
@@ -194,16 +211,34 @@ export default {
         "Oracle",
         "PostgreSQL",
         "PL/SQL",
-        "MongoDB"
+        "MongoDB",
       ],
       mobile: ["Android Studio", "Kotlin"],
       os: ["Linux", "Windows"],
       devops: ["Docker", "Ansible", "Jenkins", "Make"],
-      tools: ["Git/Github", "Microsoft Office", "Cisco Packet Tracer", "GNS3"],
-      project_management: ["Ms Project", "Trello", "Scrum", "Gerrit", "Slack"],
-      others: ["Java", "C", "Matlab", "Octave", "Bash", "VHDL", "Windev"]
+      scraping: ["Scrapy", "BeautifulSoup", "Selenium", "Regular Expressions"],
+      project_management: [
+        "Ms Project",
+        "Trello",
+        "Scrum",
+        "Gerrit",
+        "Slack",
+        "Jira",
+        "Bitbucket",
+      ],
+      others: [
+        "Git/Github",
+        "GitKraken",
+        "Java",
+        "C",
+        "Matlab",
+        "Octave",
+        "Bash",
+        "VHDL",
+        "Windev",
+      ],
     };
-  }
+  },
 };
 </script>
 <style>
